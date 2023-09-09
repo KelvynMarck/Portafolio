@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script defer src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script defer src="script.js"></script>
+    <title>Portafolio</title>
+</head>
+
+<body>
+    <!--Menu del encabezado-->
+    <div class="contenerdor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Marck</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">Sobre mi</a></li>
+                    <li><a href="#curriculum"onclick="seleccionar()">Curriculum</a></li>
+                    <li><a href="#skills"onclick="seleccionar()">Habilidades</a></li>
+                    <li><a href="#portafolio"onclick="seleccionar()">Portafolio</a></li>
+                    <li><a href="#contacto"onclick="seleccionar()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!--Seccion de inicio-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenerdor-img">
+                <img class="ima" src="Img/kelv.png" alt="">
+            </div>
+            <!--Clase para las animaciones-->
+            <h1 data-aos="fade-down-right">Kelvyn Encarnación </h1>
+            <h2 data-aos="fade-up-right">Desarrollador Back-End</h2>
+            <div class="redes">
+                <a data-aos="fade-up-right" href="https://www.facebook.com/kelvyn.concepcion"><i class="fa-brands fa-facebook" style="color: #005eff;"></i></a>
+                <a data-aos="fade-up-right" href="https://www.instagram.com/kelvyencarnacion/"><i class="fa-brands fa-instagram" style="color: #ff00bf;"></i></a>
+                <a data-aos="fade-up-left" href="https://www.linkedin.com/in/kelvynconcepcion/"><i class="fa-brands fa-linkedin" style="color: #006eff;"></i></a>
+                <a data-aos="fade-up-left" href="https://github.com/kelvyn32"><i class="fa-brands fa-github"style="color: #000000;"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion de Sobre mi-->
+    <section id="sobremi" class="sobremi">
+
+        <div data-aos="fade-up-left" class="contenido-seccion">
+            <h2>Sobre mi</h2>
+            <p><span>Soy kelvyn Encarnación .</span> Técnico en desarrollo de software, creativo, empático, comprometido, 
+                sé trabajar en equipo, me interesa el área de auditor de pruebas de auditoria con SQL server, y back-end con
+                 c# con disponibilidad en otras áreas laborables; soy apasionado por lo que me gusta, estoy en constante 
+                 crecimiento y aprendizaje.
+            </p>
+
+            <div class="fila">
+                <!-- Datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Nacionalidad:</strong>
+                            Dominicanao
+                        </li>
+
+                        <li>
+                            <strong>Fecha de nacimiento:</strong>
+                            24-03-2002
+                        </li>
+
+                        <li>
+                            <strong>Número de teléfono:</strong>
+
+                            829-883-1187
+                        </li>
+
+                        <li>
+                            <strong>Correo electrónico:</strong>
+                            Kelvynalexander1234@gmail.com
+                        </li>
+
+                        <li>
+                            <strong>Dirección:</strong>
+                            República Dominicana, invivienda
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- Intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Juegos</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-music"></i>
+                            <span>Musica</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>Viajar</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>Deportes</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-book"></i>
+                            <span>Libros</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>Autos</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-brands fa-youtube"></i>
+                            <span>Videos</span>
+                        </div>
+
+                        <!---->
+
+                        <div class="intereses">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Programar</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <a href="curriculum.html/curriculum.html">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+
+           
+        </div>
+    </section>
+
+    <!--Seccion de skills-->
+    <section class="skills" id="skills">
+        <div data-aos="zoom-in-left" class="contenido-seccion">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <!--skills tecnologicas-->
+                <div class="col">
+                    <h3>Habilidades tecnologicas</h3>
+                    <div class="skills">
+                        <span>C#</span>
+                        <div class="barra-skills">
+                            <div class="progreso Csharp">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skills">
+                            <div class="progreso htmlcss">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>MySQL & SQL SERVER</span>
+                        <div class="barra-skills">
+                            <div class="progreso MySQL">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Git & GitHub</span>
+                        <div class="barra-skills">
+                            <div class="progreso git">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Bootstrap</span>
+                        <div class="barra-skills">
+                            <div class="progreso bootstrap">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--skills personales-->
+
+                <div class="col">
+                    <h3>Habilidades Profesionales</h3>
+                    <div class="skills">
+                        <span>Comunicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso comunicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Trabajo Colaborativo</span>
+                        <div class="barra-skills">
+                            <div class="progreso trabajoColaborativo">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Creativo</span>
+                        <div class="barra-skills">
+                            <div class="progreso creativo">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Dedicación</span>
+                        <div class="barra-skills">
+                            <div class="progreso dedicacion">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="skills">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skills">
+                            <div class="progreso responsabilidad">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Seccion de Curriculum-->
+    <section id="curriculum" class="curriculum">
+        <div data-aos="fade-up-right" class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación </h3>
+                    <div class="item izq">
+                        <h4>Tecnico en Desarrollo de Software
+                        </h4>
+                        <span class="casa">ITLA - Instituto Tecnológico de Las Américas</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>Me enorgullece haber obtenido mi título en Desarrollo de Software 
+                            del Instituto Tecnológico de Las Américas (ITLA). A lo largo de esta 
+                            completa carrera, adquirí un profundo entendimiento de las metodologías 
+                            de desarrollo de software, lenguajes de programación, diseño de aplicaciones
+                             y resolución de problemas. </p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="item izq">
+                        <h4>Fundamentos del Computador</h4>
+                        <span class="casa">Cisco Networking Academy</span>
+                        <span class="fecha">2021</span>
+                        <p> Completé un curso a través de la plataforma Cisco Networking Academy 
+                            que me proporcionó una comprensión sólida de los conceptos fundamentales 
+                            de la computación.</p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                    <div class="item izq">
+                        <h4>Certiprof Scrum</h4>
+                        <span class="casa">Scrum Foundation Professional Certificate (SFPC)</span>
+                        <span class="fecha">22 de Noviembre</span>
+                        <p>Obtuve la certificación Scrum Foundation Professional Certificate (SFPC),
+                             la cual valida mis conocimientos en las metodologías y principios ágiles 
+                             de Scrum. Esta certificación demuestra mi comprensión de los conceptos 
+                             fundamentales para la gestión de proyectos y desarrollo de productos de 
+                             manera eficiente y colaborativa.</p>
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Columna derecha-->
+
+                <div class="col derecha">
+                    <h3>Experiencia</h3>
+                    <div class="item der">
+                        <h4>Auditor de pruebas de auditoria</h4>
+                        <span class="casa">BanReservas</span>
+                        <span class="fecha">10/7/2023-22/9/2023 (PASANTIA)</span>
+                        <p>Durante mi pasantía, me enfoqué en la planificación y 
+                            ejecución de pruebas de auditoría para bases de datos y
+                            Desarrollade en ASP.NET Web Api y .NET Framework..</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+                    <!---->
+
+                     <!--<div class="item der">
+                        <h4>Back-End</h4>
+                        <span class="casa">Universidad ITLA</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>El Instituto Tecnológico de Las Américas (ITLA)
+                            es una institución técnica de estudios superiores,
+                            fundada en el año 2000 por el Estado dominicano.
+                            Única especializada en educación tecnológica en
+                            la República Dominicana.</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>-->
+
+                    <!---->
+
+                   <!-- <div class="item der">
+                        <h4>Back-End</h4>
+                        <span class="casa">Universidad ITLA</span>
+                        <span class="fecha">2021-2023</span>
+                        <p>El Instituto Tecnológico de Las Américas (ITLA)
+                            es una institución técnica de estudios superiores,
+                            fundada en el año 2000 por el Estado dominicano.
+                            Única especializada en educación tecnológica en
+                            la República Dominicana.</p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Seccion de PortaFolio-->
+   <section id="portafolio" class="portafolio">
+    <div data-aos="zoom-in-left" class="contenido-seccion">
+        <h2>Portafolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <a href="Certificado de Scrum/Certificate.html">
+                    <img src="img/Certificate.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Certificado de Scrum</h3>
+                        <p>Certificate</p>
+                    </div>
+                </a>
+            </div>
+
+            
+            <div class="proyecto">
+                <a href="Certificado de IT Essentials/ITEssentials.html">
+                    <img src="img/Cisco-Certificado.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Fundamentos del computador
+                            
+                        </h3>
+                        <p>Certificate</p>
+                    </div>
+                </a>
+            </div>
+           
+        
+        </div>
+        
+    </div>
+
+
+   </section>
+   <!--Seccion de Contacto-->
+   <section id="contacto" class="contacto">
+
+
+    <div class="contenido-seccion">
+        <form action="https://formsubmit.co/kelvynalexander1234@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!--Formulario-->
+                <div class="col">
+                <input type="text" name="Nombre" placeholder="Nombre">
+                <input type="text" name="Numero de telefono" placeholder="Numero de telefono">
+                <input type="text" name="Correo electrónico" placeholder="Dirección de Correo">
+                <input type="text" name="Tema" placeholder="Tema">
+                <textarea name="Mensaje:" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button class="btn" type="submit" value="Enviar">
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"> </span>
+                </button>
+                <input type="hidden" name="_next" value="http://127.0.0.1:5501/Index.html">
+                <input type="hidden" name="_captcha" value="false">
+
+                </div>
+              
+                <!--Mapa-->
+                <div class="col">
+                    <img src="img/Maps.jpg" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-pin"></i>
+                                República Dominicana, Invivienda
+                            </li>
+
+                            <li>
+                                <i class="fa-sharp fa-solid fa-mobile"></i>
+                                Contactame: 829-883-1187
+                            </li>
+
+                            <li>
+                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                Correo: Kelvynalexander1234@gmail.com
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+                  
+            </div>
+
+        </form>
+        
+    </div>
+   </section>
+
+   <!--Footer-->
+   <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+            <div class="redes">
+                
+            </div>
+
+        </a>
+   </footer>
+   <script src="script.js"></script>
+</body>
+
+</html>
